@@ -110,5 +110,3 @@ Id: 2    Name: Milk      💲Price: 30
   - Store bills in a file for **record-keeping**.  
 
 ---
-
-🎯 This program is perfect for beginners in C to explore **basic programming concepts** while working on a practical application!  
