@@ -1,70 +1,70 @@
-# 🧾 Simple Billing System in C  
+# **🧾 Simple Billing System in C**  
 
-The **Simple Billing System** is a fundamental program written in C that enables users to capture customer details, log purchased items with their prices, and generate an organized, itemized bill directly in the terminal.  
+The **Simple Billing System** is a beginner-friendly program written in C that helps users input customer details, log purchased items with prices, and generate a clear, itemized bill directly in the terminal.  
 
 ---
 
-## ✨ Features  
+## **✨ Features**  
 
-### 📝 User Input:  
-- Collect customer **name** 🧑‍💼 and **address** 🏠.  
-- Record multiple items along with their **names** 🏷️ and **prices** 💵.  
+### 📝 **User-Friendly Input:**  
+- Input customer **name** 🧑‍💼 and **address** 🏠.  
+- Record multiple **items** 🛒 with their **names** 🏷️ and **prices** 💵.  
 
-### 📊 Bill Generation:  
-- Display a detailed, structured bill including:  
+### 📊 **Detailed Bill Generation:**  
+- Create a structured bill including:  
   - 🆔 **Item ID**  
   - 🏷️ **Item Name**  
   - 💲 **Item Price**  
 - Automatically calculate and display the **total amount** 💰.  
 
-### 📋 Clean and Readable Output:  
-- Generate a well-formatted bill in the terminal for quick review and simplicity.  
+### 📋 **Clean Output:**  
+- Generate a well-formatted bill 🖥️ for review and simplicity.  
 
 ---
 
-## 🛠️ Tools & Technologies  
+## **🛠️ Tools & Technologies**  
 
-- **Language**: C Programming 💻  
-- **Compiler**: GCC or any standard C compiler ⚙️.  
+- **Language:** C Programming 💻  
+- **Compiler:** GCC or any standard C compiler ⚙️  
 
 ---
 
-## 📂 Project Structure  
+## **📂 Project Structure**  
 
-The project is compact and includes a single source file:  
+The program consists of a single source file:  
 ```
-/Billing System  
-└── billing_system.c  # Contains all program logic  
+/BillingSystem  
+└── billing_system.c  # Contains the entire logic  
 ```  
 
 ---
 
-## 🚀 How to Run the Program  
+## **🚀 How to Run the Program**  
 
-### 📌 Prerequisites  
-- Ensure a **C compiler** (like GCC) is installed on your system.  
+### 📌 **Prerequisites**  
+- Ensure you have a **C compiler** installed (e.g., GCC).  
 
-### 📋 Steps  
+### 📋 **Steps**  
 
-1. Save the source code as `billing_system.c`.  
+1. Save the program as `billing_system.c`.  
 2. Open a terminal and navigate to the file’s directory.  
-3. Compile the program:  
+3. Compile the code:  
    ```bash  
    gcc billing_system.c -o billing_system  
    ```  
-4. Run the compiled program:  
+4. Execute the program:  
    ```bash  
    ./billing_system  
    ```  
-5. Follow the prompts to:  
-   - Enter customer details.  
-   - Add items with their respective prices.  
+5. Follow the on-screen prompts to enter:  
+   - Customer details.  
+   - Items and their prices.  
 
 ---
 
-## 💻 Example Interaction  
+## **💻 Example Interaction**  
 
-### User Input 📝  
+### **User Input** 📝  
 ```  
 Enter your name: Alice  
 Enter your address: Green Street  
@@ -76,7 +76,7 @@ Enter 2 item name: Milk
 Enter price: 30  
 ```  
 
-### Program Output 📋  
+### **Program Output** 📋  
 ```  
          🛍️ Simple Billing System  
          ------------------------  
@@ -94,28 +94,28 @@ Id: 2    Name: Milk      💲Price: 30
 
 ---
 
-## 🔍 Key Concepts  
+## **🔍 Key Concepts**  
 
-- **Core Features**:  
-  - Demonstrates the use of **structures**, **arrays**, and **basic input/output** in C.  
-  - Implements effective **data organization** for a billing application.  
+### 🔹 **Core Features:**  
+- Uses **structures**, **arrays**, and **basic input/output**.  
+- Organizes data effectively for a billing application.  
 
-- **Workflow**:  
-  1. Input customer details and item list with prices.  
-  2. Use a **structured array** to store and manage the data.  
-  3. Compute and display the formatted **total bill**.  
+### 🔹 **Workflow:**  
+1. Gather customer details and items with prices.  
+2. Store data in a **structured array** for management.  
+3. Compute and display a formatted **total bill**.  
 
-- **Expandable Options**:  
-  - Include **tax calculations** or **discount options** for enhanced functionality.  
-  - Add an option to **save the bills** to a file for record-keeping 📂.  
+### 🔹 **Expandable Options:**  
+- Add **tax calculations** 🧾 or **discounts** 🎁.  
+- Save bills to a file 📂 for future reference.  
 
 ---
 
-## 🔧 Future Enhancements  
+## **🔧 Future Enhancements**  
 
-- **Tax & Discounts**: Add options to calculate and display taxes or discounts.  
-- **File Saving** 📄: Save generated bills as files for future reference.  
-- **Customer History** 📊: Create a database for tracking purchase history.  
-- **Improved UI** 🎨: Use libraries like **ncurses** to add a visually appealing interface.  
+- **Tax & Discounts:** Add fields for calculating taxes or discounts 💸.  
+- **File Saving:** Save bills as text files 📄 for record-keeping.  
+- **Customer History:** Build a small database for tracking purchase history 📊.  
+- **Improved UI:** Use libraries like **ncurses** 🎨 to create a visually appealing interface.  
 
---- 
+---  
